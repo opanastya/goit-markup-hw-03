@@ -10,6 +10,7 @@
     --blue-color:#2196F3;
     --grey-color:#757575;
     --btn: #F5F4FA;
+    --bgc: #2F303A;
 }
 .list {
     list-style: none;
@@ -91,6 +92,7 @@ padding-bottom: 25px;
 .header-list .item + .item {
     margin-left: 50px;
 }
+.item 
 .header-link {
     display: block;
 font-weight: 500;
@@ -136,7 +138,7 @@ color: var(--blue-color);
 /*----------------HERO - MAIN -----------BUTTON */
     /* фон временній */
 .hero {
-    background-color: #2F303A;
+    background-color: var(--bgc);
     padding-top: 200px;
     padding-bottom: 200px;
     margin-bottom: 10px;
@@ -256,6 +258,9 @@ color: var(--grey-color);
 .team-link {
     margin-right: 30px;
     padding-bottom: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-title {
@@ -281,7 +286,7 @@ color: var(--white-color);
 }
 .footer {
     /* фон временній */
-background-color: #2F303A;
+background-color: var(--bgc);
 padding-top: 60px;
 padding-bottom: 60px;
 }
@@ -329,6 +334,7 @@ padding-bottom: 60px;
     cursor: pointer;
     background: #F5F4FA;
     border: transparent;
+    border-radius: 4px;
     padding: 6px 22px;
 }
 .gallery-btn:hover, 
@@ -360,7 +366,6 @@ margin-right: 30px;
 margin-bottom: 30px;
 }
 .gallery-img {
-    margin-bottom: 20px;
     width: 370px;
 }
 .gallery-title {
@@ -376,5 +381,9 @@ margin-bottom: 30px;
     line-height: 1.88;
     letter-spacing: 0.03em;
     color: var(--grey-color);
-    padding-bottom: 20px;
+}
+.gallery-border {
+    border: 1px solid #EEEEEE;
+    margin: 0;
+    padding: 20px 24px;
 }
